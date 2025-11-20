@@ -21,6 +21,3 @@ jobs:
 
       - name: Run Checkstyle
         run: mvn -B verify
-
-      - name: Build project
-        run: mvn -B package
